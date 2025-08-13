@@ -1,5 +1,10 @@
-const Contact = () => {
+const Contact = async () => {
   console.log("Hey is this on the server or client?");
+
+  const res = await fetch("https://jsonplaceholder.typicode.com/posts");
+  const posts = await res.json();
+  console.log(posts);
+
   return (
     <div>
       <h1>Contact Us</h1>
