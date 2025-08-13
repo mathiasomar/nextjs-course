@@ -1,3 +1,5 @@
+import Button from "./button";
+
 const Contact = async () => {
   console.log("Hey is this on the server or client?");
 
@@ -12,6 +14,8 @@ const Contact = async () => {
         If you have any questions, feel free to reach out to us at
         contact@ourcompany.com.
       </p>
+
+      <Button />
     </div>
   );
 };
