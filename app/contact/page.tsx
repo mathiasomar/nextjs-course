@@ -1,4 +1,5 @@
 const Contact = () => {
+  console.log("Hey is this on the server or client?");
   return (
     <div>
       <h1>Contact Us</h1>

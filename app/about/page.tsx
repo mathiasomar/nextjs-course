@@ -1,4 +1,7 @@
+"use client";
+
 const About = () => {
+  console.log("Hey is this on the server or client?");
   return (
     <div>
       <h1>About Us</h1>
