@@ -1,4 +1,11 @@
-"use client";
+import { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "About Us",
+  description: "Learn more about our company and what we do.",
+  keywords: ["about", "company", "information"],
+  authors: [{ name: "Omar Mathias", url: "https://example.com" }],
+};
 
 const About = () => {
   console.log("Hey is this on the server or client?");
